@@ -1,0 +1,47 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffcccc; /* Light pink background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+/* Message box styling */
+.message {
+    font-size: 2rem;
+    color: #ff3366; /* Bright pink color */
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid #ff3366; /* Pink border */
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Container for the buttons */
+.buttons {
+    display: flex;
+    gap: 20px; /* Space between buttons */
+}
+
+/* Button styling */
+.button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    background-color: #ff3366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for buttons */
+.button:hover {
+    background-color: #ff6699;
+}
